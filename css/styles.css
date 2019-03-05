@@ -1,0 +1,154 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: arial;
+  margin: 2px;
+}
+
+
+
+  h1 {
+    text-align: left;
+    font-family: "Big Caslon";
+    font-size: 40px;
+    color: grey
+    padding: 2;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    color: grey;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom:30px;
+    font-weight:5;
+  }
+
+  img#group{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+p{
+  width: 65%;
+  font-size: 30px;
+  font-family: "Big Caslon";
+  text-align: left;
+  color: black;
+  margin-left: 140px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  width: 50%;
+  font-size: 1em;
+  font-family: "Big Caslon";
+  margin-top: 20px;
+  margin-left: 140px;
+  text-align: justify;
+  color: rgb(65,65,65);
+  font-weight: 10;
+}
+
+  .fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-top: 45px;
+  }
+
+  .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: grey;
+  color: white;
+}
+
+
+div.contrast {
+ background-color: rgb(255,255,255);
+ color: rgb(0,0,0);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialIconsHeader{
+  display: flex;
+  justify-content: flex-end;
+  width: 1170px;
+  position: relative;
+  float: right;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: verdana;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+  font-family: verdana;
+}
